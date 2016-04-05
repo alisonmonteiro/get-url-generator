@@ -1,7 +1,7 @@
 {
-  "name": "generate-get-url",
+  "name": "get-url-generator",
   "version": "0.0.1",
-  "description": "Generate a url with get format",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "ava"
