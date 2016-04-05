@@ -1,0 +1,19 @@
+{
+  "name": "generate-get-url",
+  "version": "0.0.1",
+  "description": "Generate a url with get format",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.11.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Alison Monteiro",
+    "email": "alisonmonteiro.10@gmail.com",
+    "url": "alisonmonteiro.com.br"
+  },
+  "license": "MIT"
+}
