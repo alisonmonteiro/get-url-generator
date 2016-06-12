@@ -1,9 +1,15 @@
 # get-url-generator
 
+## Install
+
+```
+$ npm install --save get-url-generator
+```
+
 ## Usage
 
-~~~javascript
-const generateUrl = require('./index');
+```javascript
+const generateUrl = require('get-url-generator');
 
 generateUrl('http://google.com', {
   q: 'generate url',
@@ -17,4 +23,4 @@ generateUrl('google.com/search', { q: 'test' });
 
 generateUrl('http://google.com');
 //=> http://google.com
-~~~
+```
