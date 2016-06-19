@@ -1,7 +1,7 @@
 {
   "name": "get-url-generator",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Objects -> GET parameters",
   "main": "index.js",
   "scripts": {
     "test": "ava"
@@ -9,7 +9,13 @@
   "devDependencies": {
     "ava": "^0.11.0"
   },
-  "keywords": [],
+  "keywords": [
+    "get",
+    "url",
+    "generator",
+    "nodejs",
+    "javascript"
+  ],
   "author": {
     "name": "Alison Monteiro",
     "email": "alisonmonteiro.10@gmail.com",
