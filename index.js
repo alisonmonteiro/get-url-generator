@@ -3,13 +3,11 @@
 module.exports = (url, opts) => {
   opts = opts || {};
 
-  let params = Object.keys(opts).map(function(item) {
-    return item + '=' + encodeURIComponent(opts[item]);
-  });
-
-  params = params
+  const keys = Object.keys(opts);
+  const params = keys
+    .map(item => item + '=' + encodeURIComponent(opts[item]))
     .join('&')
     .replace(/%20/g, '+');
 
-  return url + (params ? '?' + params : params);
+  return url + (params ? '?' + params : '');
 }

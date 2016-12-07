@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$ npm install --save get-url-generator
+$ npm install get-url-generator --save
 ```
 
 ## Usage
